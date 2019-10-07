@@ -1,8 +1,7 @@
 # D-KURDISH
 Take webcam shots from target just sending a malicious link
 
-![cheese](https://user-images.githubusercontent.com/34893261/56869077-e5714d80-69d1-11e9-8ce2-29a254021890.jpg)
-
+![cheese]
 # How it works?
 <p>The tool generates a malicious HTTPS page using Serveo or Ngrok Port Forwarding methods, and a javascript code to cam requests using MediaDevices.getUserMedia. </p>
 
@@ -14,7 +13,7 @@ Take webcam shots from target just sending a malicious link
 ## Installing (Kali Linux/Termux):
 
 ```
-git clone https://github.com/thelinuxchoice/saycheese
+git clone https://github.com/dido-kurdish/D-KURDISH.git
 cd D-KURDISH
 bash D-KURDISH.sh
 ```
