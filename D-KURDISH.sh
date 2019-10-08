@@ -6,9 +6,16 @@ trap 'printf "\n";stop' 2
 banner() {
 
 apt install figlet toilet -y
+
+pkg install openssh -y 
+
+
 clear
 
-toilet --gay -F border -t -w 100 D -F border - -f small -F border K -F border U R -F border D -F border I S
+
+
+toilet -f big -F border -F border -F border  'D-KURDISH' -F gay | lolcat
+
 
 printf " \e[1;77m                v1.0 coded by https://github.com/dido-kurdish\e[0m \n"
 
