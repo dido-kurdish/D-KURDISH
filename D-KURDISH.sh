@@ -8,7 +8,7 @@ banner() {
 apt install figlet toilet -y
 clear
 
-toilet -f mono12 -F border -t -w 100 D -F border - -f small -F border K -F border U -F border R -F border D -F border I -F border S -F border H -F border -F border
+toilet --gay -F border -t -w 100 D -F border - -f small -F border K -F border U R -F border D -F border I S
 
 printf " \e[1;77m                v1.0 coded by https://github.com/dido-kurdish\e[0m \n"
 
